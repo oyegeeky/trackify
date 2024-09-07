@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Simplify Spends with Trackify </Text>
+      <Text style={styles.text}>Simplify Spendss with Trackify </Text>
     </View>
   );
 };
