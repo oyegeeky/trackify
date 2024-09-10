@@ -4,9 +4,10 @@ import { View, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native
 const App = () => {
   // Sample data for recent transactions
   const transactions = [
-    { id: '1', title: 'Groceries', amount: '-$50' },
-    { id: '2', title: 'Salary', amount: '+$1000' },
-    { id: '3', title: 'Dinner', amount: '-$30' },
+    { id: '1', title: 'Groceries', amount: '- ₹ 50' },
+    { id: '2', title: 'Salary', amount: '+ ₹ 1000' },
+    { id: '3', title: 'Dinner', amount: '- ₹ 30' },
+    { id: '4', title: 'EMI', amount: '- ₹ 3980' },
   ];
 
   const renderItem = ({ item }) => (
